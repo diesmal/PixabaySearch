@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0204D7921E7EDEC500775309 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0204D7911E7EDEC500775309 /* SDWebImage.framework */; };
+		0204D83A1E7EF68900775309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7A81E7EF68900775309 /* AppDelegate.m */; };
+		0204D83B1E7EF68900775309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204D7AA1E7EF68900775309 /* LaunchScreen.storyboard */; };
+		0204D83C1E7EF68900775309 /* PBSServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7AE1E7EF68900775309 /* PBSServiceAssembly.m */; };
+		0204D83D1E7EF68900775309 /* PBSPixabayServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7B31E7EF68900775309 /* PBSPixabayServiceAssembly.m */; };
+		0204D83E1E7EF68900775309 /* PBSPixabayServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7B61E7EF68900775309 /* PBSPixabayServiceImplementation.m */; };
+		0204D83F1E7EF68900775309 /* PBSPixabayRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7BA1E7EF68900775309 /* PBSPixabayRouter.m */; };
+		0204D8401E7EF68900775309 /* PBSAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7BF1E7EF68900775309 /* PBSAsynchronousOperation.m */; };
+		0204D8411E7EF68900775309 /* PBSJSONDeserialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7C31E7EF68900775309 /* PBSJSONDeserialization.m */; };
+		0204D8421E7EF68900775309 /* PBSMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7C81E7EF68900775309 /* PBSMapper.m */; };
+		0204D8431E7EF68900775309 /* PBSResponseCacheImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7CE1E7EF68900775309 /* PBSResponseCacheImplementation.m */; };
+		0204D8441E7EF68900775309 /* PBSCommonNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7D31E7EF68900775309 /* PBSCommonNetworkClient.m */; };
+		0204D8451E7EF68900775309 /* PBSNetworkingDelayLast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7D91E7EF68900775309 /* PBSNetworkingDelayLast.m */; };
+		0204D8461E7EF68900775309 /* PBSNetworkingUniqueCurrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7DC1E7EF68900775309 /* PBSNetworkingUniqueCurrent.m */; };
+		0204D8471E7EF68900775309 /* PBSNetworkingUniqueNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7DF1E7EF68900775309 /* PBSNetworkingUniqueNew.m */; };
+		0204D8481E7EF68900775309 /* PBSNetworkingImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7E21E7EF68900775309 /* PBSNetworkingImplementation.m */; };
+		0204D8491E7EF68900775309 /* PBSNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7E61E7EF68900775309 /* PBSNetworkOperation.m */; };
+		0204D84A1E7EF68900775309 /* PBSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7F01E7EF68900775309 /* PBSSettings.m */; };
+		0204D84B1E7EF68900775309 /* PBSPixabayImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7F41E7EF68900775309 /* PBSPixabayImageItem.m */; };
+		0204D84C1E7EF68900775309 /* PBSPixabayItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7F71E7EF68900775309 /* PBSPixabayItems.m */; };
+		0204D84D1E7EF68900775309 /* PBSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D7FA1E7EF68900775309 /* PBSResponse.m */; };
+		0204D84E1E7EF68900775309 /* PBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8011E7EF68900775309 /* PBSViewController.m */; };
+		0204D84F1E7EF68900775309 /* PBSModuleOutputCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8051E7EF68900775309 /* PBSModuleOutputCommand.m */; };
+		0204D8501E7EF68900775309 /* PBSDetailModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D80C1E7EF68900775309 /* PBSDetailModuleAssembly.m */; };
+		0204D8511E7EF68900775309 /* PBSDetailViewController+ModuleInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8111E7EF68900775309 /* PBSDetailViewController+ModuleInput.m */; };
+		0204D8521E7EF68900775309 /* PBSDetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8141E7EF68900775309 /* PBSDetailPresenter.m */; };
+		0204D8531E7EF68900775309 /* PBSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8171E7EF68900775309 /* PBSDetailViewController.m */; };
+		0204D8541E7EF68900775309 /* PBSSearchingModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D81D1E7EF68900775309 /* PBSSearchingModuleAssembly.m */; };
+		0204D8551E7EF68900775309 /* PBSSearchingInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8201E7EF68900775309 /* PBSSearchingInteractor.m */; };
+		0204D8561E7EF68900775309 /* PBSSearchingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8251E7EF68900775309 /* PBSSearchingPresenter.m */; };
+		0204D8571E7EF68900775309 /* PBSSearchingViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8291E7EF68900775309 /* PBSSearchingViewController+Router.m */; };
+		0204D8581E7EF68900775309 /* PBSImageItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D82E1E7EF68900775309 /* PBSImageItemCollectionViewCell.m */; };
+		0204D8591E7EF68900775309 /* PBSSearchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8301E7EF68900775309 /* PBSSearchingViewController.m */; };
+		0204D85A1E7EF68900775309 /* Searching.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204D8341E7EF68900775309 /* Searching.storyboard */; };
+		0204D85B1E7EF68900775309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0204D8361E7EF68900775309 /* Assets.xcassets */; };
+		0204D85D1E7EF68900775309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0204D8391E7EF68900775309 /* main.m */; };
+		02DA06571E7D09C600D890FD /* PixabaySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA06561E7D09C600D890FD /* PixabaySearchTests.m */; };
+		02DA07221E7D9B9800D890FD /* PBSMappableModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA071F1E7D9B9800D890FD /* PBSMappableModelTests.m */; };
+		02DA07231E7D9B9800D890FD /* PBSTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA07211E7D9B9800D890FD /* PBSTestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02DA06531E7D09C600D890FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02DA06311E7D09C600D890FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DA06381E7D09C600D890FD;
+			remoteInfo = PixabaySearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0204D7911E7EDEC500775309 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		0204D7A71E7EF68900775309 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0204D7A81E7EF68900775309 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0204D7AA1E7EF68900775309 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0204D7AD1E7EF68900775309 /* PBSServiceAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSServiceAssembly.h; sourceTree = "<group>"; };
+		0204D7AE1E7EF68900775309 /* PBSServiceAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSServiceAssembly.m; sourceTree = "<group>"; };
+		0204D7B21E7EF68900775309 /* PBSPixabayServiceAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayServiceAssembly.h; sourceTree = "<group>"; };
+		0204D7B31E7EF68900775309 /* PBSPixabayServiceAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSPixabayServiceAssembly.m; sourceTree = "<group>"; };
+		0204D7B51E7EF68900775309 /* PBSPixabayServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayServiceImplementation.h; sourceTree = "<group>"; };
+		0204D7B61E7EF68900775309 /* PBSPixabayServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSPixabayServiceImplementation.m; sourceTree = "<group>"; };
+		0204D7B71E7EF68900775309 /* PBSPixabayService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayService.h; sourceTree = "<group>"; };
+		0204D7B91E7EF68900775309 /* PBSPixabayRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayRouter.h; sourceTree = "<group>"; };
+		0204D7BA1E7EF68900775309 /* PBSPixabayRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSPixabayRouter.m; sourceTree = "<group>"; };
+		0204D7BE1E7EF68900775309 /* PBSAsynchronousOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSAsynchronousOperation.h; sourceTree = "<group>"; };
+		0204D7BF1E7EF68900775309 /* PBSAsynchronousOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSAsynchronousOperation.m; sourceTree = "<group>"; };
+		0204D7C21E7EF68900775309 /* PBSJSONDeserialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSJSONDeserialization.h; sourceTree = "<group>"; };
+		0204D7C31E7EF68900775309 /* PBSJSONDeserialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSJSONDeserialization.m; sourceTree = "<group>"; };
+		0204D7C41E7EF68900775309 /* PBSDeserialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDeserialization.h; sourceTree = "<group>"; };
+		0204D7C61E7EF68900775309 /* PBSMappableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSMappableModel.h; sourceTree = "<group>"; };
+		0204D7C71E7EF68900775309 /* PBSMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSMapper.h; sourceTree = "<group>"; };
+		0204D7C81E7EF68900775309 /* PBSMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSMapper.m; sourceTree = "<group>"; };
+		0204D7CC1E7EF68900775309 /* PBSResponseCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSResponseCache.h; sourceTree = "<group>"; };
+		0204D7CD1E7EF68900775309 /* PBSResponseCacheImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSResponseCacheImplementation.h; sourceTree = "<group>"; };
+		0204D7CE1E7EF68900775309 /* PBSResponseCacheImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSResponseCacheImplementation.m; sourceTree = "<group>"; };
+		0204D7D21E7EF68900775309 /* PBSCommonNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSCommonNetworkClient.h; sourceTree = "<group>"; };
+		0204D7D31E7EF68900775309 /* PBSCommonNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSCommonNetworkClient.m; sourceTree = "<group>"; };
+		0204D7D51E7EF68900775309 /* PBSNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkClient.h; sourceTree = "<group>"; };
+		0204D7D81E7EF68900775309 /* PBSNetworkingDelayLast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkingDelayLast.h; sourceTree = "<group>"; };
+		0204D7D91E7EF68900775309 /* PBSNetworkingDelayLast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSNetworkingDelayLast.m; sourceTree = "<group>"; };
+		0204D7DB1E7EF68900775309 /* PBSNetworkingUniqueCurrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkingUniqueCurrent.h; sourceTree = "<group>"; };
+		0204D7DC1E7EF68900775309 /* PBSNetworkingUniqueCurrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSNetworkingUniqueCurrent.m; sourceTree = "<group>"; };
+		0204D7DE1E7EF68900775309 /* PBSNetworkingUniqueNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkingUniqueNew.h; sourceTree = "<group>"; };
+		0204D7DF1E7EF68900775309 /* PBSNetworkingUniqueNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSNetworkingUniqueNew.m; sourceTree = "<group>"; };
+		0204D7E11E7EF68900775309 /* PBSNetworkingImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkingImplementation.h; sourceTree = "<group>"; };
+		0204D7E21E7EF68900775309 /* PBSNetworkingImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSNetworkingImplementation.m; sourceTree = "<group>"; };
+		0204D7E51E7EF68900775309 /* PBSNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkOperation.h; sourceTree = "<group>"; };
+		0204D7E61E7EF68900775309 /* PBSNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSNetworkOperation.m; sourceTree = "<group>"; };
+		0204D7E81E7EF68900775309 /* PBSCancelableOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSCancelableOperation.h; sourceTree = "<group>"; };
+		0204D7E91E7EF68900775309 /* PBSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworking.h; sourceTree = "<group>"; };
+		0204D7EA1E7EF68900775309 /* PBSNetwrokingDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetwrokingDecorator.h; sourceTree = "<group>"; };
+		0204D7EC1E7EF68900775309 /* PBSNetworkingSharedTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSNetworkingSharedTypes.h; sourceTree = "<group>"; };
+		0204D7EF1E7EF68900775309 /* PBSSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSettings.h; sourceTree = "<group>"; };
+		0204D7F01E7EF68900775309 /* PBSSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSSettings.m; sourceTree = "<group>"; };
+		0204D7F31E7EF68900775309 /* PBSPixabayImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayImageItem.h; sourceTree = "<group>"; };
+		0204D7F41E7EF68900775309 /* PBSPixabayImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSPixabayImageItem.m; sourceTree = "<group>"; };
+		0204D7F61E7EF68900775309 /* PBSPixabayItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSPixabayItems.h; sourceTree = "<group>"; };
+		0204D7F71E7EF68900775309 /* PBSPixabayItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSPixabayItems.m; sourceTree = "<group>"; };
+		0204D7F91E7EF68900775309 /* PBSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSResponse.h; sourceTree = "<group>"; };
+		0204D7FA1E7EF68900775309 /* PBSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSResponse.m; sourceTree = "<group>"; };
+		0204D7FE1E7EF68900775309 /* PBSAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSAssembly.h; sourceTree = "<group>"; };
+		0204D8001E7EF68900775309 /* PBSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSViewController.h; sourceTree = "<group>"; };
+		0204D8011E7EF68900775309 /* PBSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSViewController.m; sourceTree = "<group>"; };
+		0204D8041E7EF68900775309 /* PBSModuleOutputCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSModuleOutputCommand.h; sourceTree = "<group>"; };
+		0204D8051E7EF68900775309 /* PBSModuleOutputCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSModuleOutputCommand.m; sourceTree = "<group>"; };
+		0204D80B1E7EF68900775309 /* PBSDetailModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailModuleAssembly.h; sourceTree = "<group>"; };
+		0204D80C1E7EF68900775309 /* PBSDetailModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSDetailModuleAssembly.m; sourceTree = "<group>"; };
+		0204D80F1E7EF68900775309 /* PBSDetailModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailModuleInput.h; sourceTree = "<group>"; };
+		0204D8101E7EF68900775309 /* PBSDetailViewController+ModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBSDetailViewController+ModuleInput.h"; sourceTree = "<group>"; };
+		0204D8111E7EF68900775309 /* PBSDetailViewController+ModuleInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBSDetailViewController+ModuleInput.m"; sourceTree = "<group>"; };
+		0204D8131E7EF68900775309 /* PBSDetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailPresenter.h; sourceTree = "<group>"; };
+		0204D8141E7EF68900775309 /* PBSDetailPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSDetailPresenter.m; sourceTree = "<group>"; };
+		0204D8161E7EF68900775309 /* PBSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailViewController.h; sourceTree = "<group>"; };
+		0204D8171E7EF68900775309 /* PBSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSDetailViewController.m; sourceTree = "<group>"; };
+		0204D8181E7EF68900775309 /* PBSDetailViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailViewInput.h; sourceTree = "<group>"; };
+		0204D8191E7EF68900775309 /* PBSDetailViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSDetailViewOutput.h; sourceTree = "<group>"; };
+		0204D81C1E7EF68900775309 /* PBSSearchingModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingModuleAssembly.h; sourceTree = "<group>"; };
+		0204D81D1E7EF68900775309 /* PBSSearchingModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSSearchingModuleAssembly.m; sourceTree = "<group>"; };
+		0204D81F1E7EF68900775309 /* PBSSearchingInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingInteractor.h; sourceTree = "<group>"; };
+		0204D8201E7EF68900775309 /* PBSSearchingInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSSearchingInteractor.m; sourceTree = "<group>"; };
+		0204D8211E7EF68900775309 /* PBSSearchingInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingInteractorInput.h; sourceTree = "<group>"; };
+		0204D8221E7EF68900775309 /* PBSSearchingInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingInteractorOutput.h; sourceTree = "<group>"; };
+		0204D8241E7EF68900775309 /* PBSSearchingPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingPresenter.h; sourceTree = "<group>"; };
+		0204D8251E7EF68900775309 /* PBSSearchingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSSearchingPresenter.m; sourceTree = "<group>"; };
+		0204D8271E7EF68900775309 /* PBSSearchingRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingRouterInput.h; sourceTree = "<group>"; };
+		0204D8281E7EF68900775309 /* PBSSearchingViewController+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBSSearchingViewController+Router.h"; sourceTree = "<group>"; };
+		0204D8291E7EF68900775309 /* PBSSearchingViewController+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBSSearchingViewController+Router.m"; sourceTree = "<group>"; };
+		0204D82D1E7EF68900775309 /* PBSImageItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSImageItemCollectionViewCell.h; sourceTree = "<group>"; };
+		0204D82E1E7EF68900775309 /* PBSImageItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSImageItemCollectionViewCell.m; sourceTree = "<group>"; };
+		0204D82F1E7EF68900775309 /* PBSSearchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingViewController.h; sourceTree = "<group>"; };
+		0204D8301E7EF68900775309 /* PBSSearchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSSearchingViewController.m; sourceTree = "<group>"; };
+		0204D8311E7EF68900775309 /* PBSSearchingViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingViewInput.h; sourceTree = "<group>"; };
+		0204D8321E7EF68900775309 /* PBSSearchingViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSSearchingViewOutput.h; sourceTree = "<group>"; };
+		0204D8341E7EF68900775309 /* Searching.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Searching.storyboard; sourceTree = "<group>"; };
+		0204D8361E7EF68900775309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0204D8381E7EF68900775309 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0204D8391E7EF68900775309 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02DA06391E7D09C600D890FD /* PixabaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DA06521E7D09C600D890FD /* PixabaySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabaySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DA06561E7D09C600D890FD /* PixabaySearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixabaySearchTests.m; sourceTree = "<group>"; };
+		02DA06581E7D09C600D890FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DA071F1E7D9B9800D890FD /* PBSMappableModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSMappableModelTests.m; sourceTree = "<group>"; };
+		02DA07201E7D9B9800D890FD /* PBSTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSTestModel.h; sourceTree = "<group>"; };
+		02DA07211E7D9B9800D890FD /* PBSTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSTestModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DA06361E7D09C600D890FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0204D7921E7EDEC500775309 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DA064F1E7D09C600D890FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0204D7901E7EDEC500775309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7911E7EDEC500775309 /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0204D7A41E7EF68900775309 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7A51E7EF68900775309 /* ApplicationLayer */,
+				0204D7AB1E7EF68900775309 /* BusinessLogicLayer */,
+				0204D7BB1E7EF68900775309 /* CoreLayer */,
+				0204D7ED1E7EF68900775309 /* Helpers */,
+				0204D7F11E7EF68900775309 /* Models */,
+				0204D7FB1E7EF68900775309 /* PresentationLayer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0204D7A51E7EF68900775309 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7A61E7EF68900775309 /* AppDelegate */,
+				0204D7A91E7EF68900775309 /* Storyboard */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		0204D7A61E7EF68900775309 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7A71E7EF68900775309 /* AppDelegate.h */,
+				0204D7A81E7EF68900775309 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0204D7A91E7EF68900775309 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7AA1E7EF68900775309 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0204D7AB1E7EF68900775309 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7AC1E7EF68900775309 /* Assembly */,
+				0204D7AF1E7EF68900775309 /* Services */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		0204D7AC1E7EF68900775309 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7AD1E7EF68900775309 /* PBSServiceAssembly.h */,
+				0204D7AE1E7EF68900775309 /* PBSServiceAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0204D7AF1E7EF68900775309 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7B01E7EF68900775309 /* PixabayService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0204D7B01E7EF68900775309 /* PixabayService */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7B71E7EF68900775309 /* PBSPixabayService.h */,
+				0204D7B11E7EF68900775309 /* Assembly */,
+				0204D7B41E7EF68900775309 /* Implementation */,
+				0204D7B81E7EF68900775309 /* Router */,
+			);
+			path = PixabayService;
+			sourceTree = "<group>";
+		};
+		0204D7B11E7EF68900775309 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7B21E7EF68900775309 /* PBSPixabayServiceAssembly.h */,
+				0204D7B31E7EF68900775309 /* PBSPixabayServiceAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0204D7B41E7EF68900775309 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7B51E7EF68900775309 /* PBSPixabayServiceImplementation.h */,
+				0204D7B61E7EF68900775309 /* PBSPixabayServiceImplementation.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		0204D7B81E7EF68900775309 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7B91E7EF68900775309 /* PBSPixabayRouter.h */,
+				0204D7BA1E7EF68900775309 /* PBSPixabayRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0204D7BB1E7EF68900775309 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7BC1E7EF68900775309 /* Base */,
+				0204D7C01E7EF68900775309 /* Deserialization */,
+				0204D7C51E7EF68900775309 /* Mapping */,
+				0204D7C91E7EF68900775309 /* Networking */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		0204D7BC1E7EF68900775309 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7BD1E7EF68900775309 /* AsynchronousOperation */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0204D7BD1E7EF68900775309 /* AsynchronousOperation */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7BE1E7EF68900775309 /* PBSAsynchronousOperation.h */,
+				0204D7BF1E7EF68900775309 /* PBSAsynchronousOperation.m */,
+			);
+			path = AsynchronousOperation;
+			sourceTree = "<group>";
+		};
+		0204D7C01E7EF68900775309 /* Deserialization */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7C41E7EF68900775309 /* PBSDeserialization.h */,
+				0204D7C11E7EF68900775309 /* JSONDerialization */,
+			);
+			path = Deserialization;
+			sourceTree = "<group>";
+		};
+		0204D7C11E7EF68900775309 /* JSONDerialization */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7C21E7EF68900775309 /* PBSJSONDeserialization.h */,
+				0204D7C31E7EF68900775309 /* PBSJSONDeserialization.m */,
+			);
+			path = JSONDerialization;
+			sourceTree = "<group>";
+		};
+		0204D7C51E7EF68900775309 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7C71E7EF68900775309 /* PBSMapper.h */,
+				0204D7C81E7EF68900775309 /* PBSMapper.m */,
+				0204D7C61E7EF68900775309 /* PBSMappableModel.h */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		0204D7C91E7EF68900775309 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7CA1E7EF68900775309 /* Cache */,
+				0204D7CF1E7EF68900775309 /* Components */,
+				0204D7D61E7EF68900775309 /* Decorators */,
+				0204D7E01E7EF68900775309 /* Networking */,
+				0204D7E31E7EF68900775309 /* Operations */,
+				0204D7E71E7EF68900775309 /* Protocols */,
+				0204D7EB1E7EF68900775309 /* SharedTypes */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0204D7CA1E7EF68900775309 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7CB1E7EF68900775309 /* Response */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		0204D7CB1E7EF68900775309 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7CC1E7EF68900775309 /* PBSResponseCache.h */,
+				0204D7CD1E7EF68900775309 /* PBSResponseCacheImplementation.h */,
+				0204D7CE1E7EF68900775309 /* PBSResponseCacheImplementation.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0204D7CF1E7EF68900775309 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D01E7EF68900775309 /* NetworkClient */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0204D7D01E7EF68900775309 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D11E7EF68900775309 /* ConcreteClasses */,
+				0204D7D41E7EF68900775309 /* Protocol */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		0204D7D11E7EF68900775309 /* ConcreteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D21E7EF68900775309 /* PBSCommonNetworkClient.h */,
+				0204D7D31E7EF68900775309 /* PBSCommonNetworkClient.m */,
+			);
+			path = ConcreteClasses;
+			sourceTree = "<group>";
+		};
+		0204D7D41E7EF68900775309 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D51E7EF68900775309 /* PBSNetworkClient.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0204D7D61E7EF68900775309 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D71E7EF68900775309 /* DelayLast */,
+				0204D7DA1E7EF68900775309 /* UniqueCurrent */,
+				0204D7DD1E7EF68900775309 /* UniqueNew */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		0204D7D71E7EF68900775309 /* DelayLast */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7D81E7EF68900775309 /* PBSNetworkingDelayLast.h */,
+				0204D7D91E7EF68900775309 /* PBSNetworkingDelayLast.m */,
+			);
+			path = DelayLast;
+			sourceTree = "<group>";
+		};
+		0204D7DA1E7EF68900775309 /* UniqueCurrent */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7DB1E7EF68900775309 /* PBSNetworkingUniqueCurrent.h */,
+				0204D7DC1E7EF68900775309 /* PBSNetworkingUniqueCurrent.m */,
+			);
+			path = UniqueCurrent;
+			sourceTree = "<group>";
+		};
+		0204D7DD1E7EF68900775309 /* UniqueNew */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7DE1E7EF68900775309 /* PBSNetworkingUniqueNew.h */,
+				0204D7DF1E7EF68900775309 /* PBSNetworkingUniqueNew.m */,
+			);
+			path = UniqueNew;
+			sourceTree = "<group>";
+		};
+		0204D7E01E7EF68900775309 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7E11E7EF68900775309 /* PBSNetworkingImplementation.h */,
+				0204D7E21E7EF68900775309 /* PBSNetworkingImplementation.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0204D7E31E7EF68900775309 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7E41E7EF68900775309 /* NetworkOpertation */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		0204D7E41E7EF68900775309 /* NetworkOpertation */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7E51E7EF68900775309 /* PBSNetworkOperation.h */,
+				0204D7E61E7EF68900775309 /* PBSNetworkOperation.m */,
+			);
+			path = NetworkOpertation;
+			sourceTree = "<group>";
+		};
+		0204D7E71E7EF68900775309 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7E81E7EF68900775309 /* PBSCancelableOperation.h */,
+				0204D7E91E7EF68900775309 /* PBSNetworking.h */,
+				0204D7EA1E7EF68900775309 /* PBSNetwrokingDecorator.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0204D7EB1E7EF68900775309 /* SharedTypes */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7EC1E7EF68900775309 /* PBSNetworkingSharedTypes.h */,
+			);
+			path = SharedTypes;
+			sourceTree = "<group>";
+		};
+		0204D7ED1E7EF68900775309 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7EE1E7EF68900775309 /* Settings */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0204D7EE1E7EF68900775309 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7EF1E7EF68900775309 /* PBSSettings.h */,
+				0204D7F01E7EF68900775309 /* PBSSettings.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0204D7F11E7EF68900775309 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7F21E7EF68900775309 /* PixabayImageItem */,
+				0204D7F51E7EF68900775309 /* PixabayItems */,
+				0204D7F81E7EF68900775309 /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0204D7F21E7EF68900775309 /* PixabayImageItem */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7F31E7EF68900775309 /* PBSPixabayImageItem.h */,
+				0204D7F41E7EF68900775309 /* PBSPixabayImageItem.m */,
+			);
+			path = PixabayImageItem;
+			sourceTree = "<group>";
+		};
+		0204D7F51E7EF68900775309 /* PixabayItems */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7F61E7EF68900775309 /* PBSPixabayItems.h */,
+				0204D7F71E7EF68900775309 /* PBSPixabayItems.m */,
+			);
+			path = PixabayItems;
+			sourceTree = "<group>";
+		};
+		0204D7F81E7EF68900775309 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7F91E7EF68900775309 /* PBSResponse.h */,
+				0204D7FA1E7EF68900775309 /* PBSResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0204D7FB1E7EF68900775309 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7FC1E7EF68900775309 /* Base */,
+				0204D8021E7EF68900775309 /* Helpers */,
+				0204D8061E7EF68900775309 /* UserStories */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		0204D7FC1E7EF68900775309 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7FD1E7EF68900775309 /* Assembly */,
+				0204D7FF1E7EF68900775309 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0204D7FD1E7EF68900775309 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7FE1E7EF68900775309 /* PBSAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0204D7FF1E7EF68900775309 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8001E7EF68900775309 /* PBSViewController.h */,
+				0204D8011E7EF68900775309 /* PBSViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0204D8021E7EF68900775309 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8031E7EF68900775309 /* ModuleOutputCommand */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0204D8031E7EF68900775309 /* ModuleOutputCommand */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8041E7EF68900775309 /* PBSModuleOutputCommand.h */,
+				0204D8051E7EF68900775309 /* PBSModuleOutputCommand.m */,
+			);
+			path = ModuleOutputCommand;
+			sourceTree = "<group>";
+		};
+		0204D8061E7EF68900775309 /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8071E7EF68900775309 /* SearchingUserStory */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		0204D8071E7EF68900775309 /* SearchingUserStory */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8081E7EF68900775309 /* Modules */,
+				0204D8331E7EF68900775309 /* Storyboard */,
+			);
+			path = SearchingUserStory;
+			sourceTree = "<group>";
+		};
+		0204D8081E7EF68900775309 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8091E7EF68900775309 /* DetailModule */,
+				0204D81A1E7EF68900775309 /* SearchingModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0204D8091E7EF68900775309 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				0204D80A1E7EF68900775309 /* Assembly */,
+				0204D80E1E7EF68900775309 /* ModuleInput */,
+				0204D8121E7EF68900775309 /* Presenter */,
+				0204D8151E7EF68900775309 /* View */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		0204D80A1E7EF68900775309 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0204D80B1E7EF68900775309 /* PBSDetailModuleAssembly.h */,
+				0204D80C1E7EF68900775309 /* PBSDetailModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0204D80E1E7EF68900775309 /* ModuleInput */ = {
+			isa = PBXGroup;
+			children = (
+				0204D80F1E7EF68900775309 /* PBSDetailModuleInput.h */,
+				0204D8101E7EF68900775309 /* PBSDetailViewController+ModuleInput.h */,
+				0204D8111E7EF68900775309 /* PBSDetailViewController+ModuleInput.m */,
+			);
+			path = ModuleInput;
+			sourceTree = "<group>";
+		};
+		0204D8121E7EF68900775309 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8131E7EF68900775309 /* PBSDetailPresenter.h */,
+				0204D8141E7EF68900775309 /* PBSDetailPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0204D8151E7EF68900775309 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8161E7EF68900775309 /* PBSDetailViewController.h */,
+				0204D8171E7EF68900775309 /* PBSDetailViewController.m */,
+				0204D8181E7EF68900775309 /* PBSDetailViewInput.h */,
+				0204D8191E7EF68900775309 /* PBSDetailViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0204D81A1E7EF68900775309 /* SearchingModule */ = {
+			isa = PBXGroup;
+			children = (
+				0204D81B1E7EF68900775309 /* Assembly */,
+				0204D81E1E7EF68900775309 /* Interactor */,
+				0204D8231E7EF68900775309 /* Presenter */,
+				0204D8261E7EF68900775309 /* Router */,
+				0204D82A1E7EF68900775309 /* View */,
+			);
+			path = SearchingModule;
+			sourceTree = "<group>";
+		};
+		0204D81B1E7EF68900775309 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0204D81C1E7EF68900775309 /* PBSSearchingModuleAssembly.h */,
+				0204D81D1E7EF68900775309 /* PBSSearchingModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0204D81E1E7EF68900775309 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0204D81F1E7EF68900775309 /* PBSSearchingInteractor.h */,
+				0204D8201E7EF68900775309 /* PBSSearchingInteractor.m */,
+				0204D8211E7EF68900775309 /* PBSSearchingInteractorInput.h */,
+				0204D8221E7EF68900775309 /* PBSSearchingInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0204D8231E7EF68900775309 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8241E7EF68900775309 /* PBSSearchingPresenter.h */,
+				0204D8251E7EF68900775309 /* PBSSearchingPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0204D8261E7EF68900775309 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8271E7EF68900775309 /* PBSSearchingRouterInput.h */,
+				0204D8281E7EF68900775309 /* PBSSearchingViewController+Router.h */,
+				0204D8291E7EF68900775309 /* PBSSearchingViewController+Router.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0204D82A1E7EF68900775309 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0204D82F1E7EF68900775309 /* PBSSearchingViewController.h */,
+				0204D8301E7EF68900775309 /* PBSSearchingViewController.m */,
+				0204D8311E7EF68900775309 /* PBSSearchingViewInput.h */,
+				0204D8321E7EF68900775309 /* PBSSearchingViewOutput.h */,
+				0204D82B1E7EF68900775309 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0204D82B1E7EF68900775309 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0204D82C1E7EF68900775309 /* ImageItemCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0204D82C1E7EF68900775309 /* ImageItemCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0204D82D1E7EF68900775309 /* PBSImageItemCollectionViewCell.h */,
+				0204D82E1E7EF68900775309 /* PBSImageItemCollectionViewCell.m */,
+			);
+			path = ImageItemCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		0204D8331E7EF68900775309 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8341E7EF68900775309 /* Searching.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0204D8351E7EF68900775309 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8361E7EF68900775309 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0204D8371E7EF68900775309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0204D8381E7EF68900775309 /* Info.plist */,
+				0204D8391E7EF68900775309 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02DA06301E7D09C600D890FD = {
+			isa = PBXGroup;
+			children = (
+				02DA063B1E7D09C600D890FD /* PixabaySearch */,
+				02DA06551E7D09C600D890FD /* PixabaySearchTests */,
+				02DA063A1E7D09C600D890FD /* Products */,
+				0204D7901E7EDEC500775309 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02DA063A1E7D09C600D890FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02DA06391E7D09C600D890FD /* PixabaySearch.app */,
+				02DA06521E7D09C600D890FD /* PixabaySearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02DA063B1E7D09C600D890FD /* PixabaySearch */ = {
+			isa = PBXGroup;
+			children = (
+				0204D7A41E7EF68900775309 /* Classes */,
+				0204D8351E7EF68900775309 /* Resources */,
+				0204D8371E7EF68900775309 /* Supporting Files */,
+			);
+			path = PixabaySearch;
+			sourceTree = "<group>";
+		};
+		02DA06551E7D09C600D890FD /* PixabaySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				02DA07181E7D9B5100D890FD /* CoreLayer */,
+				02DA06561E7D09C600D890FD /* PixabaySearchTests.m */,
+				02DA06581E7D09C600D890FD /* Info.plist */,
+			);
+			path = PixabaySearchTests;
+			sourceTree = "<group>";
+		};
+		02DA07181E7D9B5100D890FD /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				02DA071E1E7D9B9800D890FD /* PBSMappableModel */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		02DA071E1E7D9B9800D890FD /* PBSMappableModel */ = {
+			isa = PBXGroup;
+			children = (
+				02DA07201E7D9B9800D890FD /* PBSTestModel.h */,
+				02DA07211E7D9B9800D890FD /* PBSTestModel.m */,
+				02DA071F1E7D9B9800D890FD /* PBSMappableModelTests.m */,
+			);
+			path = PBSMappableModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DA06381E7D09C600D890FD /* PixabaySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DA065B1E7D09C600D890FD /* Build configuration list for PBXNativeTarget "PixabaySearch" */;
+			buildPhases = (
+				02DA06351E7D09C600D890FD /* Sources */,
+				02DA06361E7D09C600D890FD /* Frameworks */,
+				02DA06371E7D09C600D890FD /* Resources */,
+				0204D78F1E7EDE6E00775309 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixabaySearch;
+			productName = PixabaySearch;
+			productReference = 02DA06391E7D09C600D890FD /* PixabaySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02DA06511E7D09C600D890FD /* PixabaySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DA065E1E7D09C600D890FD /* Build configuration list for PBXNativeTarget "PixabaySearchTests" */;
+			buildPhases = (
+				02DA064E1E7D09C600D890FD /* Sources */,
+				02DA064F1E7D09C600D890FD /* Frameworks */,
+				02DA06501E7D09C600D890FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DA06541E7D09C600D890FD /* PBXTargetDependency */,
+			);
+			name = PixabaySearchTests;
+			productName = PixabaySearchTests;
+			productReference = 02DA06521E7D09C600D890FD /* PixabaySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02DA06311E7D09C600D890FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PBS;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ilya Nikolaenko";
+				TargetAttributes = {
+					02DA06381E7D09C600D890FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3R652HBQ74;
+						ProvisioningStyle = Automatic;
+					};
+					02DA06511E7D09C600D890FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3R652HBQ74;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02DA06381E7D09C600D890FD;
+					};
+				};
+			};
+			buildConfigurationList = 02DA06341E7D09C600D890FD /* Build configuration list for PBXProject "PixabaySearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02DA06301E7D09C600D890FD;
+			productRefGroup = 02DA063A1E7D09C600D890FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02DA06381E7D09C600D890FD /* PixabaySearch */,
+				02DA06511E7D09C600D890FD /* PixabaySearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02DA06371E7D09C600D890FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0204D83B1E7EF68900775309 /* LaunchScreen.storyboard in Resources */,
+				0204D85B1E7EF68900775309 /* Assets.xcassets in Resources */,
+				0204D85A1E7EF68900775309 /* Searching.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DA06501E7D09C600D890FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0204D78F1E7EDE6E00775309 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DA06351E7D09C600D890FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0204D8421E7EF68900775309 /* PBSMapper.m in Sources */,
+				0204D83D1E7EF68900775309 /* PBSPixabayServiceAssembly.m in Sources */,
+				0204D8461E7EF68900775309 /* PBSNetworkingUniqueCurrent.m in Sources */,
+				0204D84C1E7EF68900775309 /* PBSPixabayItems.m in Sources */,
+				0204D8451E7EF68900775309 /* PBSNetworkingDelayLast.m in Sources */,
+				0204D8471E7EF68900775309 /* PBSNetworkingUniqueNew.m in Sources */,
+				0204D85D1E7EF68900775309 /* main.m in Sources */,
+				0204D8481E7EF68900775309 /* PBSNetworkingImplementation.m in Sources */,
+				0204D8531E7EF68900775309 /* PBSDetailViewController.m in Sources */,
+				0204D8411E7EF68900775309 /* PBSJSONDeserialization.m in Sources */,
+				0204D8401E7EF68900775309 /* PBSAsynchronousOperation.m in Sources */,
+				0204D84F1E7EF68900775309 /* PBSModuleOutputCommand.m in Sources */,
+				0204D8441E7EF68900775309 /* PBSCommonNetworkClient.m in Sources */,
+				0204D8491E7EF68900775309 /* PBSNetworkOperation.m in Sources */,
+				0204D83A1E7EF68900775309 /* AppDelegate.m in Sources */,
+				0204D8581E7EF68900775309 /* PBSImageItemCollectionViewCell.m in Sources */,
+				0204D8571E7EF68900775309 /* PBSSearchingViewController+Router.m in Sources */,
+				0204D84B1E7EF68900775309 /* PBSPixabayImageItem.m in Sources */,
+				0204D84D1E7EF68900775309 /* PBSResponse.m in Sources */,
+				0204D83E1E7EF68900775309 /* PBSPixabayServiceImplementation.m in Sources */,
+				0204D8431E7EF68900775309 /* PBSResponseCacheImplementation.m in Sources */,
+				0204D83F1E7EF68900775309 /* PBSPixabayRouter.m in Sources */,
+				0204D84A1E7EF68900775309 /* PBSSettings.m in Sources */,
+				0204D84E1E7EF68900775309 /* PBSViewController.m in Sources */,
+				0204D8501E7EF68900775309 /* PBSDetailModuleAssembly.m in Sources */,
+				0204D83C1E7EF68900775309 /* PBSServiceAssembly.m in Sources */,
+				0204D8561E7EF68900775309 /* PBSSearchingPresenter.m in Sources */,
+				0204D8511E7EF68900775309 /* PBSDetailViewController+ModuleInput.m in Sources */,
+				0204D8551E7EF68900775309 /* PBSSearchingInteractor.m in Sources */,
+				0204D8541E7EF68900775309 /* PBSSearchingModuleAssembly.m in Sources */,
+				0204D8521E7EF68900775309 /* PBSDetailPresenter.m in Sources */,
+				0204D8591E7EF68900775309 /* PBSSearchingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DA064E1E7D09C600D890FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DA07231E7D9B9800D890FD /* PBSTestModel.m in Sources */,
+				02DA06571E7D09C600D890FD /* PixabaySearchTests.m in Sources */,
+				02DA07221E7D9B9800D890FD /* PBSMappableModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02DA06541E7D09C600D890FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02DA06381E7D09C600D890FD /* PixabaySearch */;
+			targetProxy = 02DA06531E7D09C600D890FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DA06591E7D09C600D890FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02DA065A1E7D09C600D890FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02DA065C1E7D09C600D890FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3R652HBQ74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/PixabaySearch/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didev.PixabaySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02DA065D1E7D09C600D890FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3R652HBQ74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/PixabaySearch/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didev.PixabaySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02DA065F1E7D09C600D890FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3R652HBQ74;
+				INFOPLIST_FILE = PixabaySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didev.PixabaySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixabaySearch.app/PixabaySearch";
+			};
+			name = Debug;
+		};
+		02DA06601E7D09C600D890FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3R652HBQ74;
+				INFOPLIST_FILE = PixabaySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didev.PixabaySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixabaySearch.app/PixabaySearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DA06341E7D09C600D890FD /* Build configuration list for PBXProject "PixabaySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DA06591E7D09C600D890FD /* Debug */,
+				02DA065A1E7D09C600D890FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DA065B1E7D09C600D890FD /* Build configuration list for PBXNativeTarget "PixabaySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DA065C1E7D09C600D890FD /* Debug */,
+				02DA065D1E7D09C600D890FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DA065E1E7D09C600D890FD /* Build configuration list for PBXNativeTarget "PixabaySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DA065F1E7D09C600D890FD /* Debug */,
+				02DA06601E7D09C600D890FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02DA06311E7D09C600D890FD /* Project object */;
+}
